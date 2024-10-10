@@ -7,6 +7,10 @@ android {
     namespace = "com.dicoding.myappbar"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.dicoding.myappbar"
         minSdk = 24
